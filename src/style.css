@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body {
+  background-image: url('https://as2.ftcdn.net/jpg/02/01/52/31/500_F_201523189_omLd6gxIJLM3MWxmm2e4FkuxJBxsvKya.jpg');
+  background-size: cover;
+  font-family: TimesNewRoman;
+  
+  
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border-style: solid
+  
+}
+.display h1 {
+  width:100%;
+  display:block;
+  text-align:center;
+}
+
+#display {
+  display:flex;
+  flex-wrap: wrap;
+  width:360px;
+  
+  
+  
+}
+
+.drum-pad {
+  border: 2px solid #333;
+  border-radius: 20px;
+  margin: 4px;
+  height: 100px;
+  width: 100px;
+  padding: 4px;
+  font-size:50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(44, 98, 184);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0.3)
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: TimesNewRoman
+}
+h4 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.drum-pad.active{
+  opacity: 0.8;
+  transform: scale(0.94); 
+}
